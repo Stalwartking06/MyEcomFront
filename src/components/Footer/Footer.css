@@ -1,0 +1,119 @@
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footer .logo i {
+    color: #0aa5ff;
+    font-size: 30px;
+  }
+  
+  .footer .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 12px;
+    text-decoration: none;
+  }
+  
+  .footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .footer .menu-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer .menu-links a {
+    font-weight: 500;
+    color: #999999;
+    transition: color 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .footer .menu-links a:hover {
+    color: white;
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .footer .social-icons .icon {
+    font-size: 20px;
+    color: white;
+    transition: color 0.2s ease;
+  }
+  
+  .footer .social-icons .icon:hover {
+    color: #0aa5ff;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    .footer-content {
+      gap: 30px;
+    }
+    
+    .footer .menu-links {
+      justify-content: center;
+    }
+  
+    .footer .social-icons {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      gap: 30px;
+    }
+  
+    .footer .menu-links {
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+  
+    .footer .social-icons {
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer .logo {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer .menu-links {
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+  
+    .footer .social-icons {
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+  
